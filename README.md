@@ -63,3 +63,7 @@ For example, evaluate with CAMERA on the test set of our proposed datasets.
 CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 run.py \
 --config ./configs/CAMERA_Saureus.py --mode test
 ```
+
+## Credit
+
+This repo is based on [SenseXAMP](https://github.com/William-Zhanng/SenseXAMP)
