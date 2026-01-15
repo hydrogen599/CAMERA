@@ -27,7 +27,7 @@ Before utilizing CAMERA, it's important to prepare the datasets appropriately. O
  - ori_datasets
     - Format: **.csv**
     - Description: This includes `train.csv`, `val.csv`, and `test.csv`. These datasets exclusively contain sequences and corresponding labels.
-    - Obtaining Method: Upon acceptance of this manuscript, the dataset will be released publicly to support transparency and collaborative advancements in computational AMP identification.
+    - Obtaining Method: https://pan.baidu.com/s/1wOH2WdvTodhvBO_GrXj67w?pwd=8n8k
  - esm_embeddings
     - Format: **.h5**
     - Description: These datasets are in .h5 format and are generated using the esm-2 model. This version of the dataset is derived from the `ori_datasets`.
@@ -42,7 +42,8 @@ Before utilizing CAMERA, it's important to prepare the datasets appropriately. O
     - Obtaining Method: By running the script `tools/stc.py`
 
 ### 2. Download our model checkpoints to quickly reproduce our results
-To promote reproducibility and future research, we will release our model checkpoints upon acceptance of this paper.
+
+https://pan.baidu.com/s/1wOH2WdvTodhvBO_GrXj67w?pwd=8n8k
 
 ### 3. Run CAMERA
 In this project, the model, datasets, and hyperparameters are all setted in `config.py`. Therefore, before running `run.py`, please ensure that the corresponding `config.py` is correctly configured.
